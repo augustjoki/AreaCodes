@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* Area_CodesAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 574}}";
+			sepNavSelRange = "{716, 0}";
+			sepNavVisRange = "{205, 810}";
+			sepNavWindowFrame = "{{125, 218}, {750, 558}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Area_CodesAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 2156}}";
+			sepNavSelRange = "{6421, 0}";
+			sepNavVisRange = "{5376, 683}";
+			sepNavWindowFrame = "{{179, 313}, {750, 558}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Area Codes */ = {
+		activeExec = 0;
+		executables = (
+			97EFA6F30DBC510F00A64075 /* Area Codes */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavSelRange = "{202, 21}";
+			sepNavVisRange = "{0, 234}";
+			sepNavWindowFrame = "{{193, 210}, {750, 558}}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {718, 2604}}";
+			sepNavSelRange = "{9952, 0}";
+			sepNavVisRange = "{9056, 891}";
+			sepNavWindowFrame = "{{216, 189}, {750, 558}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 97EFA6F30DBC510F00A64075 /* Area Codes */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Area Codes */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Area Codes */,
+		);
+		breakpoints = (
+			97D9A4CA0DC2B7190063BC76 /* RootViewController.m:115 */,
+			97675C7E0DC81B070080D9F9 /* SearchView.m:50 */,
+		);
+		codeSenseManager = 97EFA7000DBC512800A64075 /* Code sense */;
+		executables = (
+			97EFA6F30DBC510F00A64075 /* Area Codes */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					430.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					540,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 231312374;
+			PBXWorkspaceStateSaveDate = 231312374;
+		};
+		perUserProjectItems = {
+			9705DF170DC9506C007F96D3 /* PBXTextBookmark */ = 9705DF170DC9506C007F96D3 /* PBXTextBookmark */;
+			97069FEE0DC022570066A62E /* PBXTextBookmark */ = 97069FEE0DC022570066A62E /* PBXTextBookmark */;
+			97069FF00DC022570066A62E /* PBXTextBookmark */ = 97069FF00DC022570066A62E /* PBXTextBookmark */;
+			971820000DBDDAAD008D2C24 /* PBXTextBookmark */ = 971820000DBDDAAD008D2C24 /* PBXTextBookmark */;
+			971820020DBDDAAD008D2C24 /* PBXTextBookmark */ = 971820020DBDDAAD008D2C24 /* PBXTextBookmark */;
+			971820050DBDDAAD008D2C24 /* PBXTextBookmark */ = 971820050DBDDAAD008D2C24 /* PBXTextBookmark */;
+			9770CCBB0DBFEA0700EC995F /* PBXTextBookmark */ = 9770CCBB0DBFEA0700EC995F /* PBXTextBookmark */;
+			97B332EE0DBD55E400CD6E7C /* PBXTextBookmark */ = 97B332EE0DBD55E400CD6E7C /* PBXTextBookmark */;
+			97B332F30DBD55E400CD6E7C /* PBXTextBookmark */ = 97B332F30DBD55E400CD6E7C /* PBXTextBookmark */;
+			97B696D00DC8052800C8EF3E /* PBXTextBookmark */ = 97B696D00DC8052800C8EF3E /* PBXTextBookmark */;
+			97B696D60DC8056600C8EF3E /* PBXTextBookmark */ = 97B696D60DC8056600C8EF3E /* PBXTextBookmark */;
+			97B697050DC80C7C00C8EF3E /* PBXTextBookmark */ = 97B697050DC80C7C00C8EF3E /* PBXTextBookmark */;
+			97B955DD0DC844760037FFDF /* PBXTextBookmark */ = 97B955DD0DC844760037FFDF /* PBXTextBookmark */;
+			97B956090DC849990037FFDF /* PBXTextBookmark */ = 97B956090DC849990037FFDF /* PBXTextBookmark */;
+			97B9560E0DC853BF0037FFDF /* PBXTextBookmark */ = 97B9560E0DC853BF0037FFDF /* PBXTextBookmark */;
+			97B9566A0DC868A90037FFDF /* PBXTextBookmark */ = 97B9566A0DC868A90037FFDF /* PBXTextBookmark */;
+			97B956770DC872AF0037FFDF /* PBXTextBookmark */ = 97B956770DC872AF0037FFDF /* PBXTextBookmark */;
+			97B9568D0DC872F90037FFDF /* PBXTextBookmark */ = 97B9568D0DC872F90037FFDF /* PBXTextBookmark */;
+			97B956B50DC87C6B0037FFDF /* PBXTextBookmark */ = 97B956B50DC87C6B0037FFDF /* PBXTextBookmark */;
+			97B9579C0DC937690037FFDF /* PBXTextBookmark */ = 97B9579C0DC937690037FFDF /* PBXTextBookmark */;
+			97C1B5C60DC0270600681981 /* PBXTextBookmark */ = 97C1B5C60DC0270600681981 /* PBXTextBookmark */;
+			97D539680DBEBB8E0057590E /* PBXTextBookmark */ = 97D539680DBEBB8E0057590E /* PBXTextBookmark */;
+			97D539740DBEBC1D0057590E /* PBXTextBookmark */ = 97D539740DBEBC1D0057590E /* PBXTextBookmark */;
+			97D539910DBEBD130057590E /* PBXTextBookmark */ = 97D539910DBEBD130057590E /* PBXTextBookmark */;
+			97D53A170DBF01930057590E /* PBXTextBookmark */ = 97D53A170DBF01930057590E /* PBXTextBookmark */;
+			97D53A8E0DBF189C0057590E /* PBXTextBookmark */ = 97D53A8E0DBF189C0057590E /* PBXTextBookmark */;
+			97F234A40DC98EDF005F7D79 /* PBXTextBookmark */ = 97F234A40DC98EDF005F7D79 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 97EFA6FF0DBC512800A64075 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 355}";
+			sepNavWindowFrame = "{{99, 294}, {750, 558}}";
+		};
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {690, 392}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 851}";
+		};
+	};
+	9705DF170DC9506C007F96D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 293";
+		rLen = 0;
+		rLoc = 9952;
+		rType = 0;
+		vrLen = 849;
+		vrLoc = 9103;
+	};
+	97069FED0DC0223F0066A62E /* AreaCodeCell.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = AreaCodeCell.m;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/AreaCodeCell.m";
+		sourceTree = "<absolute>";
+	};
+	97069FEE0DC022570066A62E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 978F29770DC015790002BA97 /* AreaCode.h */;
+		name = "AreaCode.h: 44";
+		rLen = 0;
+		rLoc = 976;
+		rType = 0;
+		vrLen = 449;
+		vrLoc = 527;
+	};
+	97069FF00DC022570066A62E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 978F29770DC015790002BA97 /* AreaCode.h */;
+		name = "AreaCode.h: 44";
+		rLen = 0;
+		rLoc = 976;
+		rType = 0;
+		vrLen = 449;
+		vrLoc = 527;
+	};
+	971290DB0DBD352F00536B16 /* AreaCode.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {718, 616}}";
+			sepNavSelRange = "{976, 0}";
+			sepNavVisRange = "{544, 432}";
+			sepNavWindowFrame = "{{355, 199}, {750, 558}}";
+		};
+	};
+	971290DC0DBD352F00536B16 /* AreaCode.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 1512}}";
+			sepNavSelRange = "{2774, 0}";
+			sepNavVisRange = "{2726, 418}";
+		};
+	};
+	97181FE70DBDCB87008D2C24 /* AreaCodeCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {718, 280}}";
+			sepNavSelRange = "{324, 0}";
+			sepNavVisRange = "{37, 287}";
+		};
+	};
+	97181FE80DBDCB87008D2C24 /* AreaCodeCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {718, 1242}}";
+			sepNavSelRange = "{1914, 0}";
+			sepNavVisRange = "{1634, 466}";
+		};
+	};
+	971820000DBDDAAD008D2C24 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97181FE70DBDCB87008D2C24 /* AreaCodeCell.h */;
+		name = "AreaCodeCell.h: 20";
+		rLen = 0;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 37;
+	};
+	971820020DBDDAAD008D2C24 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97181FE80DBDCB87008D2C24 /* AreaCodeCell.m */;
+		name = "AreaCodeCell.m: 93";
+		rLen = 0;
+		rLoc = 2498;
+		rType = 0;
+		vrLen = 414;
+		vrLoc = 1377;
+	};
+	971820050DBDDAAD008D2C24 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97181FE70DBDCB87008D2C24 /* AreaCodeCell.h */;
+		name = "AreaCodeCell.h: 20";
+		rLen = 0;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 37;
+	};
+	97675C7E0DC81B070080D9F9 /* SearchView.m:50 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 97D9A5160DC2CC110063BC76 /* SearchView.m */;
+		functionName = "-showInView:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 50;
+		modificationTime = 231219433.858628;
+		state = 0;
+	};
+	9770CCBB0DBFEA0700EC995F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97C31D740DBFBD8700B63807 /* Area_CodesAppDelegate.m */;
+		name = "Area_CodesAppDelegate.m: 212";
+		rLen = 0;
+		rLoc = 6408;
+		rType = 0;
+		vrLen = 569;
+		vrLoc = 5532;
+	};
+	978F29770DC015790002BA97 /* AreaCode.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AreaCode.h;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/AreaCode.h";
+		sourceTree = "<absolute>";
+	};
+	97B332EE0DBD55E400CD6E7C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Area_CodesAppDelegate.m */;
+		name = "Area_CodesAppDelegate.m: 81";
+		rLen = 0;
+		rLoc = 2372;
+		rType = 0;
+		vrLen = 485;
+		vrLoc = 2404;
+	};
+	97B332F30DBD55E400CD6E7C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 61";
+		rLen = 0;
+		rLoc = 1948;
+		rType = 0;
+		vrLen = 644;
+		vrLoc = 1948;
+	};
+	97B696CD0DC8052200C8EF3E /* RootViewController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = RootViewController.h;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/RootViewController.h";
+		sourceTree = "<absolute>";
+	};
+	97B696D00DC8052800C8EF3E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97D9A5150DC2CC110063BC76 /* SearchView.h */;
+		name = "SearchView.h: 20";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	97B696D60DC8056600C8EF3E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97B696CD0DC8052200C8EF3E /* RootViewController.h */;
+		name = "RootViewController.h: 22";
+		rLen = 0;
+		rLoc = 504;
+		rType = 0;
+		vrLen = 458;
+		vrLoc = 46;
+	};
+	97B696EA0DC805E100C8EF3E /* SearchView.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SearchView.m;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/SearchView.m";
+		sourceTree = "<absolute>";
+	};
+	97B697050DC80C7C00C8EF3E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97B696EA0DC805E100C8EF3E /* SearchView.m */;
+		name = "SearchView.m: 78";
+		rLen = 0;
+		rLoc = 1727;
+		rType = 0;
+		vrLen = 333;
+		vrLoc = 959;
+	};
+	97B955DD0DC844760037FFDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97B696EA0DC805E100C8EF3E /* SearchView.m */;
+		name = "SearchView.m: 93";
+		rLen = 0;
+		rLoc = 2406;
+		rType = 0;
+		vrLen = 534;
+		vrLoc = 1872;
+	};
+	97B955FD0DC849900037FFDF /* PrefixViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {718, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 240}";
+		};
+	};
+	97B956090DC849990037FFDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97B955FD0DC849900037FFDF /* PrefixViewController.h */;
+		name = "PrefixViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	97B9560E0DC853BF0037FFDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97D9A5150DC2CC110063BC76 /* SearchView.h */;
+		name = "SearchView.h: 18";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 385;
+		vrLoc = 0;
+	};
+	97B9563B0DC854870037FFDF /* PrefixViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = PrefixViewController.m;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/PrefixViewController.m";
+		sourceTree = "<absolute>";
+	};
+	97B956670DC868A20037FFDF /* AreaCode.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = AreaCode.m;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/AreaCode.m";
+		sourceTree = "<absolute>";
+	};
+	97B9566A0DC868A90037FFDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97B9563B0DC854870037FFDF /* PrefixViewController.m */;
+		name = "PrefixViewController.m: 113";
+		rLen = 0;
+		rLoc = 2852;
+		rType = 0;
+		vrLen = 445;
+		vrLoc = 2407;
+	};
+	97B956770DC872AF0037FFDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97B956670DC868A20037FFDF /* AreaCode.m */;
+		name = "AreaCode.m: 192";
+		rLen = 0;
+		rLoc = 4836;
+		rType = 0;
+		vrLen = 538;
+		vrLoc = 3723;
+	};
+	97B9568A0DC872F40037FFDF /* AreaCodeViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = AreaCodeViewController.m;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/AreaCodeViewController.m";
+		sourceTree = "<absolute>";
+	};
+	97B9568D0DC872F90037FFDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97B9568A0DC872F40037FFDF /* AreaCodeViewController.m */;
+		name = "AreaCodeViewController.m: 205";
+		rLen = 0;
+		rLoc = 5189;
+		rType = 0;
+		vrLen = 519;
+		vrLoc = 4148;
+	};
+	97B956AD0DC87C4A0037FFDF /* PrefixViewController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = PrefixViewController.h;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/PrefixViewController.h";
+		sourceTree = "<absolute>";
+	};
+	97B956B50DC87C6B0037FFDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97B956AD0DC87C4A0037FFDF /* PrefixViewController.h */;
+		name = "PrefixViewController.h: 24";
+		rLen = 0;
+		rLoc = 457;
+		rType = 0;
+		vrLen = 400;
+		vrLoc = 0;
+	};
+	97B957810DC92F5C0037FFDF /* PrefixViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = PrefixViewController.m;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/PrefixViewController.m";
+		sourceTree = "<absolute>";
+	};
+	97B9579C0DC937690037FFDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97B957810DC92F5C0037FFDF /* PrefixViewController.m */;
+		name = "PrefixViewController.m: 256";
+		rLen = 0;
+		rLoc = 7570;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 6782;
+	};
+	97C1B5C60DC0270600681981 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97069FED0DC0223F0066A62E /* AreaCodeCell.m */;
+		name = "AreaCodeCell.m: 70";
+		rLen = 0;
+		rLoc = 1875;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 1634;
+	};
+	97C31D740DBFBD8700B63807 /* Area_CodesAppDelegate.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Area_CodesAppDelegate.m;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/Area_CodesAppDelegate.m";
+		sourceTree = "<group>";
+	};
+	97D539500DBEA5400057590E /* AreaCodeViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {718, 294}}";
+			sepNavSelRange = "{352, 0}";
+			sepNavVisRange = "{0, 346}";
+		};
+	};
+	97D539510DBEA5400057590E /* AreaCodeViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {718, 2422}}";
+			sepNavSelRange = "{5630, 0}";
+			sepNavVisRange = "{4536, 474}";
+		};
+	};
+	97D539640DBEBB780057590E /* RootViewController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = RootViewController.h;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/RootViewController.h";
+		sourceTree = "<absolute>";
+	};
+	97D539680DBEBB8E0057590E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97D539500DBEA5400057590E /* AreaCodeViewController.h */;
+		name = "AreaCodeViewController.h: 21";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 346;
+		vrLoc = 0;
+	};
+	97D539740DBEBC1D0057590E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97D539640DBEBB780057590E /* RootViewController.h */;
+		name = "RootViewController.h: 11";
+		rLen = 0;
+		rLoc = 200;
+		rType = 0;
+		vrLen = 316;
+		vrLoc = 0;
+	};
+	97D5398C0DBEBCED0057590E /* AreaCodeViewController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AreaCodeViewController.h;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/AreaCodeViewController.h";
+		sourceTree = "<absolute>";
+	};
+	97D539910DBEBD130057590E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97D5398C0DBEBCED0057590E /* AreaCodeViewController.h */;
+		name = "AreaCodeViewController.h: 11";
+		rLen = 0;
+		rLoc = 174;
+		rType = 0;
+		vrLen = 314;
+		vrLoc = 0;
+	};
+	97D5399D0DBEBD750057590E /* AreaCodeViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = AreaCodeViewController.m;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/AreaCodeViewController.m";
+		sourceTree = "<absolute>";
+	};
+	97D53A170DBF01930057590E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 97D5399D0DBEBD750057590E /* AreaCodeViewController.m */;
+		name = "AreaCodeViewController.m: 182";
+		rLen = 0;
+		rLoc = 3580;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 3580;
+	};
+	97D53A8E0DBF189C0057590E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 971290DC0DBD352F00536B16 /* AreaCode.m */;
+		name = "AreaCode.m: 14";
+		rLen = 55;
+		rLoc = 321;
+		rType = 0;
+		vrLen = 414;
+		vrLoc = 1504;
+	};
+	97D9A4930DC2A84B0063BC76 /* RootViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = RootViewController.m;
+		path = "/Users/august/Development/iPhone/Area Codes/Classes/RootViewController.m";
+		sourceTree = "<group>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {718, 2604}}";
+			sepNavSelRange = "{9952, 0}";
+			sepNavVisRange = "{9056, 891}";
+		};
+	};
+	97D9A4CA0DC2B7190063BC76 /* RootViewController.m:115 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 97D9A4930DC2A84B0063BC76 /* RootViewController.m */;
+		functionName = "-tableView:willSelectRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 115;
+		modificationTime = 231219433.833182;
+		state = 0;
+	};
+	97D9A5150DC2CC110063BC76 /* SearchView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {718, 336}}";
+			sepNavSelRange = "{334, 0}";
+			sepNavVisRange = "{0, 385}";
+		};
+	};
+	97D9A5160DC2CC110063BC76 /* SearchView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {718, 1190}}";
+			sepNavSelRange = "{2406, 0}";
+			sepNavVisRange = "{1872, 534}";
+		};
+	};
+	97EFA6F30DBC510F00A64075 /* Area Codes */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Area Codes";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	97EFA6FF0DBC512800A64075 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	97EFA7000DBC512800A64075 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	97F234A40DC98EDF005F7D79 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 293";
+		rLen = 0;
+		rLoc = 9952;
+		rType = 0;
+		vrLen = 891;
+		vrLoc = 9056;
+	};
+}
