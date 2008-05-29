@@ -40,12 +40,8 @@
 - (void)loadView {
   [super loadView];
   
-  searchButton = [[UIButton buttonWithType:UIButtonTypeNavigation] retain];
-  UIImage *image = [UIImage imageNamed:@"search.png"];
-  [searchButton setImage:image forState:UIControlStateNormal];
-  [searchButton addTarget:self action:@selector(showPicker:) forControlEvents:UIControlEventTouchUpInside];
-  searchButton.adjustsImageWhenHighlighted = YES;
-  self.navigationItem.customRightView = searchButton;
+  searchButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self action:@selector(showPicker:)];
+  self.navigationItem.rightBarButtonItem = searchButton;
   
   searchView = [[SearchView alloc] init];
   searchView.pickerDelegate = self;
@@ -171,8 +167,9 @@
 
 
 - (void)showPicker:(id)sender {
-  [searchButton removeTarget:self action:@selector(showPicker:) forControlEvents:UIControlEventTouchUpInside];
-  [searchButton addTarget:self action:@selector(hidePicker:) forControlEvents:UIControlEventTouchUpInside];
+  //[searchButton removeTarget:self action:@selector(showPicker:) forControlEvents:UIControlEventTouchUpInside];
+  //[searchButton addTarget:self action:@selector(hidePicker:) forControlEvents:UIControlEventTouchUpInside];
+  searchButton.action = @selector(hidePicker:);
   [searchView showInView:self.view];
   CGRect bounds = self.tableView.bounds;
   CGPoint point = bounds.origin;
@@ -194,8 +191,9 @@
 
 
 - (void)hidePicker:(id)sender {
-  [searchButton removeTarget:self action:@selector(hidePicker:) forControlEvents:UIControlEventTouchUpInside];
-  [searchButton addTarget:self action:@selector(showPicker:) forControlEvents:UIControlEventTouchUpInside];
+  //[searchButton removeTarget:self action:@selector(hidePicker:) forControlEvents:UIControlEventTouchUpInside];
+  //[searchButton addTarget:self action:@selector(showPicker:) forControlEvents:UIControlEventTouchUpInside];
+  searchButton.action = @selector(showPicker:);
   [searchView hide];
 }
 

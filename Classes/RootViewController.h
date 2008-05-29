@@ -12,7 +12,7 @@
 
 @interface RootViewController : UITableViewController <UIPickerViewDelegate, UISearchBarDelegate> {
   AreaCodeViewController *areaCodeViewController;
-  UIButton *searchButton;
+  UIBarButtonItem *searchButton;
   SearchView *searchView;
 }
 

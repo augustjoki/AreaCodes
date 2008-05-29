@@ -69,7 +69,6 @@ NSString *DATA_FILENAME = @"calldata.db";
 
 - (void)initializeDatabase {
   NSString *dataFilePath = [self dataFilePath];
-  //BOOL exists = [[NSFileManager defaultManager] fileExistsAtPath:dataFilePath];
   if (sqlite3_open([dataFilePath UTF8String], &database) == SQLITE_OK) {
     NSMutableArray *codes = [[NSMutableArray alloc] init];
     const char *sql = "SELECT npa FROM npa";
@@ -121,23 +120,18 @@ NSString *DATA_FILENAME = @"calldata.db";
 
 
 - (NSString *)dataFilePath {
-#if !defined(TARGET_OS_IPHONE) || defined(TARGET_IPHONE_SIMULATOR)
+#if TARGET_IPHONE_SIMULATOR
   NSString *dataFilePath = @"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.0.sdk/System/Library/PrivateFrameworks/AppSupport.framework/calldata.db";
   //NSString *resourcePath = [[NSBundle mainBundle] resourcePath];
   //NSString *dataFilePath = [resourcePath stringByAppendingPathComponent:DATA_FILENAME];
 #else
   NSString *dataFilePath = @"/System/Library/Frameworks/AppSupport.framework/calldata.db";
 #endif
-  /*
-  static NSString *dataFilePath = nil;
-  if (dataFilePath != nil) {
-    return dataFilePath;
+  BOOL exists = [[NSFileManager defaultManager] fileExistsAtPath:dataFilePath];
+  if (!exists) {
+    NSString *resourcePath = [[NSBundle mainBundle] resourcePath];
+    dataFilePath = [resourcePath stringByAppendingPathComponent:@"calldata.db"];
   }
-  */
-  //NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-  //NSString *documentsDirectory = [paths objectAtIndex:0];
-  //dataFilePath = [[documentsDirectory stringByAppendingPathComponent:DATA_FILENAME] retain];
-  //dataFilePath = [DATA_FILENAME copy];
   return dataFilePath;
 }
 

@@ -13,7 +13,7 @@
 @interface PrefixViewController : UITableViewController <UIPickerViewDelegate, UISearchBarDelegate> {
   NSIndexPath *selectedIndexPath;
   NSArray *prefixes;
-  UIButton *searchButton;
+  UIBarButtonItem *searchButton;
   SearchView *searchView;
   NSArray *indexes;
 }
