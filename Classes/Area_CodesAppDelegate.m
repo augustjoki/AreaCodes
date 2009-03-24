@@ -27,14 +27,6 @@ NSString *DATA_FILENAME = @"calldata.db";
 @synthesize indexList;
 
 
-- init {
-  if (self = [super init]) {
-  // Initialization code
-  }
-  return self;
-}
-
-
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
   
   [self initializeDatabase];
@@ -42,9 +34,9 @@ NSString *DATA_FILENAME = @"calldata.db";
   // Create the navigation and view controllers
   RootViewController *rootViewController = [[RootViewController alloc] init];
   UINavigationController *aNavigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+  [rootViewController release];
   self.navigationController = aNavigationController;
   [aNavigationController release];
-  [rootViewController release];
   
   // Configure and show the window
   [window addSubview:[navigationController view]];
