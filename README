@@ -1,0 +1,5 @@
+*** DISCLAIMER: This app was created way back in 2.x days as a way for me to get familiar with the SDK. I'm sure it's full of ugly code and outdated ways of doing things. Did a bit of emergency surgery to get it to work with more modern sdks. ***
+
+Area Codes is a simple app to display and search the different area codes. The same ones that are displayed in the Recents tab in the Phone.app.
+
+This app reads from a private file living in the OS itself. There is no guarantee this app will work on iPod touches or iPad or in other countries besides the USA.
