@@ -47,10 +47,10 @@
   
   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:MyIdentifier];
   if (cell == nil) {
-    cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:MyIdentifier] autorelease];
+    cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:MyIdentifier] autorelease];
   }
   NSString *prefix = [prefixes objectAtIndex:indexPath.row];
-  cell.text = prefix;
+  cell.textLabel.text = prefix;
   //cell.selectionStyle = UITableViewCellSelectionStyleNone;
   return cell;
 }

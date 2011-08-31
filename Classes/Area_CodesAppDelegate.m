@@ -68,7 +68,7 @@ NSString *DATA_FILENAME = @"calldata.db";
     if (sqlite3_prepare_v2(database, sql, -1, &statement, NULL) == SQLITE_OK) {
       while (sqlite3_step(statement) == SQLITE_ROW) {
         char *code = (char *)sqlite3_column_text(statement, 0);
-        [codes addObject:[NSString stringWithCString:code]];
+        [codes addObject:[NSString stringWithCString:code encoding:NSUTF8StringEncoding]];
       }
     }
     sqlite3_finalize(statement);

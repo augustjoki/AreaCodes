@@ -3,7 +3,7 @@
 //  Area Codes
 //
 //  Created by August Joki on 4/22/08.
-//  Copyright 2008 Nokia Research. All rights reserved.
+//  Copyright 2008 Concinnous Software. All rights reserved.
 //
 
 #import "AreaCodeCell.h"
@@ -13,8 +13,8 @@
 
 @synthesize codeLabel, infoLabel;
 
-- (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier {
-    if (self = [super initWithFrame:frame reuseIdentifier:reuseIdentifier]) {
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
       codeLabel = [[UILabel alloc] initWithFrame:CGRectZero];
       codeLabel.backgroundColor = [UIColor clearColor];
       codeLabel.opaque = YES;

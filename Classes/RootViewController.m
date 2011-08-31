@@ -107,7 +107,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
   AreaCodeCell *cell = (AreaCodeCell *)[tableView dequeueReusableCellWithIdentifier:@"AreaCodeCell"];
   if (cell == nil) {
-    cell = [[[AreaCodeCell alloc] initWithFrame:CGRectZero reuseIdentifier:@"AreaCodeCell"] autorelease];
+	  cell = [[[AreaCodeCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"AreaCodeCell"] autorelease];
   }
   
   // Set up the cell

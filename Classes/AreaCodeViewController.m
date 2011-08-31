@@ -57,9 +57,9 @@
   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyIdentifier"];
   if (cell == nil) {
     // Create a new cell. CGRectZero allows the cell to determine the appropriate size.
-    cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:@"MyIdentifier"] autorelease];
+    cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"MyIdentifier"] autorelease];
   }
-  cell.text = [values objectAtIndex:indexPath.section];
+  cell.textLabel.text = [values objectAtIndex:indexPath.section];
   return cell;
 }
 
