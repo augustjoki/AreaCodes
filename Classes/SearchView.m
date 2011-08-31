@@ -3,7 +3,7 @@
 //  Area Codes
 //
 //  Created by August Joki on 4/25/08.
-//  Copyright 2008 Nokia Research. All rights reserved.
+//  Copyright 2008 Concinnous Software. All rights reserved.
 //
 
 #import "SearchView.h"
